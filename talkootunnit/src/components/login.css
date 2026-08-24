@@ -1,0 +1,97 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.login-header {
+    margin-top: 20px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.underline {
+    background-color: #52a1fc;
+    height: 9px;
+    width: 60px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fffcfc;
+}
+
+.input input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.inputDropdown {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #999;
+}
+
+.input img {
+    width: 20px;
+    height: 20px;
+    margin:0px 20px;
+}
+.forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
+}
+.forgot-password span {
+    color: #52a1fc;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.submit-container {
+    display: flex;
+    justify-content: center;
+}
+.submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #52a1fc;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* AddHours component styles */
+
+.ohjeet {
+    margin-top: 20px;
+    font-size: 14px;
+    margin: 10px;
+    text-align: center;
+    max-width: 80vh;
+}
